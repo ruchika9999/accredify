@@ -4,7 +4,7 @@
 
 - This project contains two modules - a `dashboard` for the front-end and a `server` for the back-end.
 
-## To run the front-end, you need to follow these steps:
+## To run the front-end, you need to follow these steps
 
 1. Install the necessary dependencies by running.
 
