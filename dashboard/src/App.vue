@@ -6,6 +6,6 @@
 
 <script lang="ts">
 export default {
-  name: 'app'
-}
+  name: "app",
+};
 </script>

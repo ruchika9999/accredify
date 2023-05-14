@@ -4,16 +4,23 @@ import "vue3-circle-progress/dist/circle-progress.css";
 export default {
   name: "Chart",
   props: {
-    fillColor: Number,
+    progress: Number,
   },
   components: {
     CircleProgress: CircleProgress,
+  },
+
+  setup(props) {
+    return {
+      progress: props.progress,
+    };
   },
 };
 </script>
 <template>
   <CircleProgress
-    :percent="fillColor"
+    :percent="progress"
+    :unit="'%'"
     :viewport="true"
     :show-percent="true"
     :is-gradient="true"
@@ -21,5 +28,8 @@ export default {
       startColor: '#493DF5',
       stopColor: '#493DF5',
     }"
-  />
+  >
+  <div>123232323232323</div>
+  </CircleProgress>
+  
 </template>

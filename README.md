@@ -8,29 +8,29 @@
 
 1. Install the necessary dependencies by running.
 
-### `npm install`
+`npm install`
 
 2. Start the front-end server by running.
 
-### `npm start`
+`npm start`
 
 3. To run tests for the front-end, run.
 
-### `npm run test`
+`npm run test`
 
 4. To check test coverage, run.
 
-### `npm run coverage`
+`npm run coverage`
 
 ## To run the back-end, you need to follow these steps:
 
 1. Install the necessary dependencies by running.
 
-### `npm install`
+`npm install`
 
 1. Start the back-end server by running.
 
-### `npm run dev`
+`npm run dev`
 
 - App screen.
 

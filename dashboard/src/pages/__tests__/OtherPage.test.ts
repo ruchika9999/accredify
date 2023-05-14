@@ -5,8 +5,7 @@ import sinon from "sinon";
 import { createTestingPinia } from "@pinia/testing";
 
 import OtherPage from "../OtherPage.vue";
-import SideBar from "../../components/SideBar.vue";
-import NavBar from "../../components/Navbar.vue";
+import Container from "../../components/Layout/Container.vue";
 
 import { loadingPayload } from "./../../__mockData__/dashboard";
 
@@ -25,9 +24,7 @@ describe("OtherPage", () => {
   });
 
   it("renders SideBar and NavBar components", () => {
-    const sideBarComponent = wrapper.findComponent(SideBar);
-    const navBarComponent = wrapper.findComponent(NavBar);
-    expect(sideBarComponent.exists()).toBe(true);
-    expect(navBarComponent.exists()).toBe(true);
+    const container = wrapper.findComponent(Container);
+    expect(container.exists()).toBe(true);
   });
 });

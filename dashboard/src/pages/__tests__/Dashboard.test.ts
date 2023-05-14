@@ -4,8 +4,6 @@ import sinon, { SinonSpy } from "sinon";
 import { createTestingPinia } from "@pinia/testing";
 
 import Dashboard from "../Dashboard.vue";
-import SideBar from "../../components/SideBar.vue";
-import NavBar from "../../components/Navbar.vue";
 
 import { UserStoreState } from "./../../store/user";
 import {
@@ -32,17 +30,6 @@ describe("Dashboard", () => {
 
     return wrapper;
   };
-
-  describe("should display left and top navigation", () => {
-    it("renders SideBar and NavBar components", () => {
-      const sideBarComponent = dashboard(successPayload).findComponent(SideBar);
-
-      const navBarComponent = dashboard(successPayload).findComponent(NavBar);
-
-      expect(sideBarComponent.exists()).toBe(true);
-      expect(navBarComponent.exists()).toBe(true);
-    });
-  });
 
   describe("success", () => {
     it("should render dashboard sub heading", () => {

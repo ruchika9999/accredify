@@ -38,7 +38,7 @@ export default {
     <p v-if="goal.isLoading === 'loading'" class="hidden">loading...</p>
     <p class="font-bold text-gray-scale-three text-sm">Your Progress</p>
     <div class="mt-6 mb-6">
-      <Chart :fillColor="goal?.currentGoal?.progress" />
+      <Chart :progress="goal?.currentGoal?.progress" />
     </div>
     <p class="font-normal text-sm text-center">I want to become a</p>
     <p class="font-bold text-xl mt-1">{{ goal?.currentGoal?.category }}</p>

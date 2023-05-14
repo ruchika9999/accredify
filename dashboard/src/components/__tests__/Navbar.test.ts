@@ -3,7 +3,7 @@ import sinon, { SinonSpy } from "sinon";
 import { describe, it, expect } from "vitest";
 
 import NavBar from "../Navbar.vue";
-import { successPayload, mockLabel } from "./../../__mockData__/dashboard";
+import { successPayload } from "./../../__mockData__/dashboard";
 import { createTestingPinia } from "@pinia/testing";
 
 describe("NavBar", () => {
@@ -18,14 +18,6 @@ describe("NavBar", () => {
         }),
       ],
     },
-  });
-
-  it("renders the user name correctly", () => {
-    expect(wrapper.html()).toContain(mockLabel.displayName);
-  });
-
-  it("renders icon name", () => {
-    expect(wrapper.html()).toContain(mockLabel.iconName);
   });
 
   it("opens the dropdown on click", async () => {

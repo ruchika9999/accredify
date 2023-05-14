@@ -1,11 +1,7 @@
 <script lang="ts">
-import { computed } from "vue";
-
 import NotificationIcon from "./Icons/Notification.vue";
 import ArrowDownIcon from "./Icons/ArrowDown.vue";
 import ShortName from "./Common/shortName.vue";
-
-import { userStore } from "../store/user";
 
 export default {
   name: "NavBar",
@@ -19,16 +15,11 @@ export default {
       dropDownOpen: false,
     };
   },
-
-  setup() {
-    const useUserStore = userStore();
-    const userName = computed(() => {
-      return useUserStore.getUserName;
-    });
-
-    return {
-      userName,
-    };
+  props: {
+    userName: {
+      type: String,
+      required: true,
+    },
   },
 };
 </script>
