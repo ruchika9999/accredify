@@ -34,6 +34,3 @@
 
 - App screen.
 
-<img width="1438" alt="Screenshot 2023-05-14 at 22 19 15" src="https://github.com/ruchika9999/accredify/assets/54837875/bd5bcd09-51b1-4789-b850-4e675ba2b44d">
-
-<img width="1438" alt="Screenshot 2023-05-14 at 22 19 45" src="https://github.com/ruchika9999/accredify/assets/54837875/270e54d1-809c-489d-9f35-131aa1e63709">
