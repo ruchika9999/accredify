@@ -28,8 +28,5 @@ export default {
       startColor: '#493DF5',
       stopColor: '#493DF5',
     }"
-  >
-  <div>123232323232323</div>
-  </CircleProgress>
-  
+  />
 </template>

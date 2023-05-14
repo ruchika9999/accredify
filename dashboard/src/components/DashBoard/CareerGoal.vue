@@ -1,6 +1,7 @@
 <script lang="ts">
-import Chart from "./Chart.vue";
 import { computed, onMounted } from "vue";
+
+import Chart from "./Chart.vue";
 import { careerGoalStore } from "../../store/careerGoal";
 
 export default {

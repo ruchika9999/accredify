@@ -1,10 +1,10 @@
 <script lang="ts">
 import { onMounted, computed } from "vue";
-import { userStore } from "../store/user";
 
 import CareerGoal from "../components/DashBoard/CareerGoal.vue";
 import RecentDocuments from "../components/DashBoard/RecentDocuments.vue";
 import Container from "../components/Layout/Container.vue";
+import { userStore } from "../store/user";
 import { Roles, DashboardMessage } from "../utils/constants";
 
 export default {
