@@ -33,4 +33,4 @@
 `npm run dev`
 
 - App screen.
-
+<img width="1438" alt="Screenshot 2023-05-14 at 22 19 15" src="https://github.com/ruchika9999/accredify/assets/54837875/af1a6d28-39c0-4286-b38f-cc100615575b">
