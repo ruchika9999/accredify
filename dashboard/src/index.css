@@ -1,0 +1,26 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-60-fix {
+  width: 60px;
+}
+.h-60-px {
+  height: 60px;
+}
+
+.m-l-60 {
+  margin-left: 60px;
+}
+
+.current-counter {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  color : #2B22B5;
+}
+.current-counter ::after {
+  content: "%";
+  display: inline-block;
+}
