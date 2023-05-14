@@ -36,3 +36,7 @@
 <img width="1438" alt="Screenshot 2023-05-14 at 22 19 15" src="https://github.com/ruchika9999/accredify/assets/54837875/af1a6d28-39c0-4286-b38f-cc100615575b">
 
 <img width="1438" alt="Screenshot 2023-05-14 at 22 19 45" src="https://github.com/ruchika9999/accredify/assets/54837875/55ff5195-cf26-4a8c-8ac7-f31073437bd6">
+
+```diff
+- Note : vue3-circle-progress have issue for adding percentage mark
+```
