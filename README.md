@@ -6,20 +6,20 @@
 
 ```bash
 1. Install the necessary dependencies by running.
-### `npm start`
+npm start
 ```
 
 ```bash
 2. Start the front-end server by running.
-### `npm start`
+npm start
 ```
 
 ```bash
 3. To run tests for the front-end, run.
-### `npm run test`
+npm run test
 ```
 
 ```bash
 4. To check test coverage, run.
-### `npm run test`
+npm run test
 ```
